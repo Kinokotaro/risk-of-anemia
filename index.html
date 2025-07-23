@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>貧血リスク</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>貧血リスク評価</h1>
+
+        <div class="evaluation-section">
+            <h2>ヘモグロビン</h2>
+            <p>数値を入力してください。</p>
+            <input type="number" id="hemoglobinValue" placeholder="例: 15.2">
+            <button id="evaluateHemoglobinButton">評価する</button>
+            <div id="hemoglobinResult" class="result-box"></div>
+        </div>
+
+        <div class="evaluation-section">
+            <h2>フェリチン</h2>
+            <p>数値を入力してください。</p>
+            <input type="number" id="ferritinValue" placeholder="例: 85">
+            <button id="evaluateFerritinButton">評価する</button>
+            <div id="ferritinResult" class="result-box"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

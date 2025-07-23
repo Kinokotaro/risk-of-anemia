@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.evaluation-section {
+    margin-bottom: 2rem;
+}
+
+.result-box {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    min-height: 50px; /* to avoid layout shift */
+}
+
+.evaluation-a {
+    background-color: #ffdddd;
+    color: #d63031;
+}
+
+.evaluation-b {
+    background-color: #ffeedd;
+    color: #e67e22;
+}
+
+.evaluation-c {
+    background-color: #ffffdd;
+    color: #f1c40f;
+}
+
+.evaluation-d {
+    background-color: #ddffdd;
+    color: #27ae60;
+}
+
+.evaluation-e {
+    background-color: #ddeeff;
+    color: #2980b9;
+}
