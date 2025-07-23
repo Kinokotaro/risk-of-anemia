@@ -68,3 +68,21 @@ evaluateFerritinButton.addEventListener('click', () => {
     const value = parseFloat(ferritinValueInput.value);
     evaluate(value, ferritinResultDiv, ferritinCriteria);
 });
+
+// PG1 Evaluation
+const pg1ValueInput = document.getElementById('pg1Value');
+const evaluatePg1Button = document.getElementById('evaluatePg1Button');
+const pg1ResultDiv = document.getElementById('pg1Result');
+
+const pg1Criteria = {
+    A: 50,
+    B: 45,
+    C: 40,
+    D: 35,
+    E: 30
+};
+
+evaluatePg1Button.addEventListener('click', () => {
+    const value = parseFloat(pg1ValueInput.value);
+    evaluate(value, pg1ResultDiv, pg1Criteria);
+});
